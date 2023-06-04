@@ -1,0 +1,27 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.qua{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    animation: angulo 3s infinite;
+
+}
+
+@keyframes angulo {
+    0% {
+        left: 0;
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        left: 0;
+    }
+}
+
